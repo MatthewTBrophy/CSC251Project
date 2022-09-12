@@ -57,7 +57,7 @@ public class Project_Matthew_Brophy
       System.out.println("Policyholder's Height: " + demoPolicy.getHeight());
       System.out.println("Policyholder's Weight: " + demoPolicy.getWeight());
       System.out.println("Policyholder's BMI: " + demoPolicy.getBMI());
-      System.out.println("Policy Price: " + demoPolicy.getPrice());
+      System.out.println("Policy Price: " + demoPolicy.getPrice());     
    }
 }
       

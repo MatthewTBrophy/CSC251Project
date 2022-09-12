@@ -40,7 +40,7 @@ public class Policy
     
     public void setFirst(String first)
     {
-      firstName = first;
+      firstName = first;     
     }
     
     public void setLast(String last)
