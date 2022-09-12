@@ -1,3 +1,5 @@
+// Apologies for the lack of comments.  They will be present in the final project. //
+
 public class Policy
 {
    // Fields
@@ -10,10 +12,11 @@ public class Policy
    private double holderHeight;
    private double holderWeight;
    private double BMI;
+   private double price;
    
    // Constructor
    public Policy(String number, String provider, String first, String last, int age,
-                 String smoker, double height, double weight)
+                 String smoker, double height, double weight, double BMI, double price)
    {
       policyNumber = number;
       providerName = provider;
@@ -131,7 +134,7 @@ public class Policy
       
       if(BMI > 35)
       {
-         BMIFee = (BMI = 35) * 20;
+         BMIFee = (BMI - 35) * 20;
       }
       
       double price = (base + ageFee + smokerFee + BMIFee);
